@@ -1,0 +1,44 @@
+h1 {
+    font-family: monospace;
+    color: blueviolet;
+    text-shadow: 2px 2px 2px plum;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: monospace;
+    color: orangered;
+    text-shadow: 1px 1px 1px orange;
+    font-size: 3em;
+}
+
+body {
+    background-color: rgba(35, 109, 143, 0.363);
+    font-size: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: monospace,
+        sans-serif;
+    font-size: 1.5em;
+}
+
+ul{
+    display:flex
+    margin
+}
+
+.list-style {
+    background-color: rgba(250, 176, 126, 0.849);
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#about-section {
+    background-color: rgba(250, 176, 126, 0.849);
+}

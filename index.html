@@ -4,97 +4,52 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vitor's Showcase</title>
-	<style>
-		h1 {
-			font-family:monospace;
-			color: blueviolet;
-			text-shadow:2px 2px 2px plum;
-			font-size:4em;
-		}
-
-		h2 {
-			font-family:monospace;
-			color: orangered;
-			text-shadow:1px 1px 1px orange;
-			font-size:3em;
-		}
-
-		body {
-			background-color: rgba(35, 109, 143, 0.363);
-			font-size:10px;
-			text-align:center;
-		}
-
-		p {
-			font-family:monospace,
-				sans-serif;
-			font-size:1.5em;
-		}
-
-		.ul-menu{
-			text-align:center;
-			list-style-type:none;
-			margin:0;
-			padding:0;
-			overflow:hidden;
-		}
-		
-		.li-menu{
-			font-size:1.5em;
-			font-weight:bold;
-			float:center left;
-			display:block;
-			color:white;
-			text-align:center;
-			padding: 16px;
-			text-decoration:none
-		}
-
-		.list-style {
-			background-color: rgba(250, 176, 126, 0.849);
-			font-family: monospace;
-			font-size: 1.5em;
-			font-weight: bold;
-			line-height: 20px;
-			text-align: center;
-			list-style-type: none;
-		}
-
-		#about-section {
-			background-color: rgba(250, 176, 126, 0.849);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<h1 id="mainTitle">It's me, Vitor Guimarães!</h1>
-	<img id="profilePic" src="images/Hawk.png" alt="Foto do perfil do responsável pelo site" width="150x">
-	<h2>Menu</h2>
-	<ul class="ul-menu">
-		<li class="li-menu"><a href="#about-section">About me</li></a>
-		<li class="li-menu"><a href="#skills-section">Skills</li></a>
-		<li class="li-menu"><a href="#network-section">Network</li></a>
-	</ul>
+	<h1 class="mainTitle">It's me, Vitor Guimarães!</h1>
 
-	<h2 id="about-section">About me</h2>
-	<p id="about-section">I'm a brazilian man, 26 years old, living in Guaratinguetá/SP. I used to work as a senior
-		financial analyst but life brought me to a whole new world, the world of web development.</p>
-	<h2 id="skills-section">Skills</h2>
-	<ul class="list-style">
-		<li>GIT/GITHUB</li>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>SQL</li>
-		<li>Power Bi</li>
-		<li>Excel</li>
-	</ul>
-	<h2 id="network-section">Professional network</h2>
-	<ul class="list-style">
-		<li><a href="https://www.linkedin.com/in/vitorguima/" target="_blank">Linkedin</a></li>
-		<li><a href="https://github.com/vitorguima" target="_blank">Github</a></li>
-	</ul>
-	<br><br>
-	<p><a href="#profilePic">Profile Picture</a></p>
+	<div class="menu-container">
+		<a href="#home" class="active">Home</a>
+		<a href="#aboutme" class="active">About</a>
+		<a href="#skills" class="active">Skills</a>
+		<a href="#network" class="active">Network</a>
+	</div>
+
+	<div class="profile-container">
+		<img class="profile-pic" src="images/Hawk.png" alt="Foto do perfil do responsável pelo site">
+
+		<div class="aboutme">
+			<h2 class="about-section">About me</h2>
+			<p>I'm a brazilian man, 26 years old, living in Guaratinguetá/SP. I used to work as a senior
+			financial analyst but life brought me to a whole new world, the world of web development.</p>
+		</div>
+	</div>
+
+	<div class="skills">
+		<h2 id="skills-section">Skills</h2>
+		<div class="skills-list-container">
+			<ol class="list-style">
+				<li>GIT/GITHUB</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>SQL</li>
+				<li>Power Bi</li>
+				<li>Excel</li>
+			</ol>
+		</div>
+	</div>
+
+	<div class="network-container">
+		<h2 class="network-section">Professional network</h2>
+		<a href="https://www.linkedin.com/in/vitorguima/" target="_blank"><img class="linkedin-logo" src="images/LI-Logo.png" alt="hyperlink linkedin"></a>
+		<a href="https://github.com/vitorguima" target="_blank"><img class="github-logo" src="images/GitHub_Logo.png" alt="hyperlink linkedin"></a>
+	</div>
+
 </body>
 
 </html>
+
+
+<!-- <a class="network-item" href="https://www.linkedin.com/in/vitorguima/" target="_blank">Linkedin</a> -->

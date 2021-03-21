@@ -1,44 +1,124 @@
 h1 {
-    font-family: monospace;
+    font-family:monospace;
     color: blueviolet;
-    text-shadow: 2px 2px 2px plum;
-    font-size: 4em;
+    text-shadow:2px 2px 2px plum;
+    font-size:5em;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:20px;
 }
 
 h2 {
-    font-family: monospace;
+    font-family:monospace;
     color: orangered;
-    text-shadow: 1px 1px 1px orange;
-    font-size: 3em;
+    text-shadow:1px 1px 1px orange;
+    font-size:4em;
 }
 
 body {
     background-color: rgba(35, 109, 143, 0.363);
-    font-size: 10px;
-    text-align: center;
+    font-size:10px;
 }
 
 p {
-    font-family: monospace,
+    font-family:monospace,
         sans-serif;
-    font-size: 1.5em;
+    font-size:2em;
 }
 
-ul{
-    display:flex
-    margin
+.menu-container{
+    font-size: 3em;
+    text-align:center;
+    padding-top:7px;
+    padding-bottom:10px;
+    overflow: hidden;
+    border: 2px solid black;
+    background-color:rgba(250, 156, 79, 0.918);
 }
 
-.list-style {
-    background-color: rgba(250, 176, 126, 0.849);
+div.menu-container a.active{
+    padding: 14px 16px;
+    text-decoration:none;
+    color:black;
+}
+
+div.menu-container a.active:hover{
+    background-color:greenyellow;
+}
+
+.profile-pic{
+    width:10%;
+    position:absolute;
+    left:25%;
+    top:28%;
+    padding-right: 5px;
+    padding-left:7px;
+    padding-bottom:4px;
+}
+
+div.aboutme{
+    width:30%;
+    position:absolute;
+    top:30%;
+    left:47%;
+    text-ali
+}
+
+div.skills{
+    position:absolute;
+    top:58%;
+    left:47%;
+}
+
+.skills-list-container{
+    padding-right: 10px;
+}
+
+.list-style{
     font-family: monospace;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 20px;
-    text-align: center;
-    list-style-type: none;
+    list-style-type: ;
+    text-align: justify;
+} 
+
+.network-container{
+    position:absolute;
+    top:87%;
+    left:37%;
+    padding-bottom: 20px;
 }
 
-#about-section {
-    background-color: rgba(250, 176, 126, 0.849);
+.network-item{
+    font-family:monospace,
+    sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 5px;
+    margin-inline:2px;
+    color:black;
 }
+
+.network-item:hover{
+    text-decoration:underline;
+}
+
+.linkedin-logo{
+    width:20%;
+    position:absolute;
+    top:80%;
+    left:27%
+}
+
+.github-logo{
+    width:20%;
+    position:absolute;
+    left:55%;
+    top:75%
+}
+/* 
+div classes
+menu
+
+*/

@@ -5,7 +5,7 @@ h1 {
     font-size:5em;
     text-align:center;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:20px;
 }
 
 h2 {
@@ -29,7 +29,7 @@ p {
 .menu-container{
     font-size: 3em;
     text-align:center;
-    padding-top:10px;
+    padding-top:7px;
     padding-bottom:10px;
     overflow: hidden;
     border: 2px solid black;
@@ -50,33 +50,73 @@ div.menu-container a.active:hover{
     width:10%;
     position:absolute;
     left:25%;
-    top:35%;
+    top:28%;
+    padding-right: 5px;
+    padding-left:7px;
+    padding-bottom:4px;
 }
 
 div.aboutme{
     width:30%;
     position:absolute;
-    top:37%;
+    top:30%;
     left:47%;
+    text-ali
 }
 
 div.skills{
     position:absolute;
-    top:65%;
-    left:28%;
+    top:58%;
+    left:47%;
 }
 
-.list-style {
+.skills-list-container{
+    padding-right: 10px;
+}
+
+.list-style{
     font-family: monospace;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 20px;
-    list-style-type: none;
-    text-align:justify;
+    list-style-type: ;
+    text-align: justify;
 } 
 
+.network-container{
+    position:absolute;
+    top:87%;
+    left:37%;
+    padding-bottom: 20px;
+}
 
+.network-item{
+    font-family:monospace,
+    sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 5px;
+    margin-inline:2px;
+    color:black;
+}
 
+.network-item:hover{
+    text-decoration:underline;
+}
+
+.linkedin-logo{
+    width:20%;
+    position:absolute;
+    top:80%;
+    left:27%
+}
+
+.github-logo{
+    width:20%;
+    position:absolute;
+    left:55%;
+    top:75%
+}
 /* 
 div classes
 menu

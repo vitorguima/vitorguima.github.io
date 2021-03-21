@@ -23,7 +23,7 @@ body {
 p {
     font-family:monospace,
         sans-serif;
-    font-size:1.5em;
+    font-size:2em;
 }
 
 .menu-container{
@@ -42,34 +42,38 @@ div.menu-container a.active{
     color:black;
 }
 
-.active:hover{
+div.menu-container a.active:hover{
     background-color:greenyellow;
 }
 
 .profile-pic{
     width:10%;
     position:absolute;
-    left:20%;
+    left:25%;
     top:35%;
 }
 
-.aboutme{
+div.aboutme{
     width:30%;
-    border-top:30px;
     position:absolute;
-    top:40%;
-    left:40%;
+    top:37%;
+    left:47%;
+}
+
+div.skills{
+    position:absolute;
+    top:65%;
+    left:28%;
 }
 
 .list-style {
-    background-color: rgba(250, 176, 126, 0.849);
     font-family: monospace;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 20px;
-    text-align: center;
     list-style-type: none;
-}
+    text-align:justify;
+} 
 
 
 

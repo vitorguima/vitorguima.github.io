@@ -23,10 +23,15 @@ body {
     margin:0;
 }
 
+div{
+    display:block;
+}
+
 p {
     font-family:monospace,
         sans-serif;
     font-size:2em;
+    display:block;
 }
 
 .menu-container{

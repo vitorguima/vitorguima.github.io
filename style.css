@@ -31,7 +31,6 @@ p {
     font-family:monospace,
         sans-serif;
     font-size:2em;
-    display:block;
 }
 
 .menu-container{
@@ -53,10 +52,6 @@ div.menu-container a.active{
 
 div.menu-container a.active:hover{
     background-color:greenyellow;
-}
-
-div.profile-container{
-    width: 100%;
 }
 
 .profile-pic{
@@ -141,8 +136,3 @@ div.skills-list-container ol.list-style li:nth-child(odd):hover{
     left:55%;
     top:75%
 }
-/* 
-div classes
-menu
-
-*/

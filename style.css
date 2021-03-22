@@ -13,11 +13,13 @@ h2 {
     color: orangered;
     text-shadow:1px 1px 1px orange;
     font-size:4em;
+    text-align:center;
 }
 
 body {
     background-color: rgba(35, 109, 143, 0.363);
     font-size:10px;
+    overflow:hidden
 }
 
 p {
@@ -46,11 +48,15 @@ div.menu-container a.active:hover{
     background-color:greenyellow;
 }
 
+div.profile-container{
+    width: 100%;
+}
+
 .profile-pic{
     width:10%;
     position:absolute;
     left:25%;
-    top:28%;
+    top:32%;
     padding-right: 5px;
     padding-left:7px;
     padding-bottom:4px;
@@ -59,15 +65,19 @@ div.menu-container a.active:hover{
 div.aboutme{
     width:30%;
     position:absolute;
-    top:30%;
-    left:47%;
-    text-ali
+    top:40%;
+    left:44%;
+    overflow:hidden;
 }
+
 
 div.skills{
     position:absolute;
-    top:58%;
-    left:47%;
+    top:61%;
+    left:20%;;
+    overflow:hidden;
+    text-align:center;
+    width:60%;
 }
 
 .skills-list-container{
@@ -76,18 +86,26 @@ div.skills{
 
 .list-style{
     font-family: monospace;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 2em;
     line-height: 20px;
-    list-style-type:none;
-    text-align: justify;
+    text-align: center;
 } 
+
+div.skills-list-container ol.list-style li{
+    display:inline;
+    margin:8%;
+}
+
+div.skills-list-container ol.list-style li:nth-child(odd):hover{
+    text-decoration: underline;
+}
 
 .network-container{
     position:absolute;
-    top:87%;
-    left:37%;
+    top:85%;
+    left:38%;
     padding-bottom: 20px;
+    overflow:hidden;
 }
 
 .network-item{
@@ -95,8 +113,7 @@ div.skills{
     sans-serif;
     font-size: 2em;
     text-decoration: none;
-    padding: 5px;
-    margin-inline:2px;
+    padding-bottom: 5%;
     color:black;
 }
 

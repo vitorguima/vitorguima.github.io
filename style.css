@@ -1,138 +1,116 @@
-h1 {
+body{
+    margin:0;
+    font-family:monospace,sans-serif;
+    background-color:rgba(135, 180, 201, 0.452);
+}
+
+h1{
     font-family:monospace;
     color: blueviolet;
     text-shadow:2px 2px 2px plum;
-    font-size:5em;
-    text-align:center;
-    padding-top:30px;
-    padding-bottom:20px;
-}
-
-h2 {
-    font-family:monospace;
-    color: orangered;
-    text-shadow:1px 1px 1px orange;
     font-size:4em;
     text-align:center;
 }
 
-body {
-    background-color: rgba(35, 109, 143, 0.363);
-    font-size:10px;
-    overflow:hidden;
-    margin:0;
-}
-
-div{
-    display:block;
-}
-
-p {
-    font-family:monospace,
-        sans-serif;
-    font-size:2em;
-}
-
-.menu-container{
-    font-size: 3em;
+h2{
+    font-family:monospace;
+    color: orangered;
+    text-shadow:2px 2px 2px orange;
+    font-size:2.5em;
     text-align:center;
-    padding-top:7px;
-    padding-bottom:10px;
-    overflow: hidden;
+    padding-top:20px;
+}
+
+p{
+    font-size:1.1em;
+}
+
+ul.skills-list li a{
+    font-size:1.5em;
+    padding:25px;
+    color:black;
+}
+
+ul.menu-list{
+    text-align:center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     background-color:rgba(250, 156, 79, 0.918);
 }
 
-div.menu-container a.active{
-    padding: 14px 16px;
-    text-decoration:none;
+ul.menu-list li{
+    display:inline-block;
+    font-size:1.5em;
+    padding:8px;
+}
+
+ul.menu-list li a{
+    text-decoration: none;
     color:black;
 }
 
-div.menu-container a.active:hover{
+ul.menu-list li:hover{
     background-color:greenyellow;
 }
 
-.profile-pic{
-    width:10%;
-    position:absolute;
-    left:25%;
-    top:32%;
-    padding-right: 5px;
-    padding-left:7px;
-    padding-bottom:4px;
+.profile-picture{
+    width:200px;
+    margin-right:50px;
 }
 
-div.aboutme{
-    width:30%;
-    position:absolute;
-    top:40%;
-    left:44%;
-    overflow:hidden;
-}
-
-
-div.skills{
-    position:absolute;
-    top:61%;
-    left:20%;;
-    overflow:hidden;
+.about-wrapper{
+    display:inline-block;
     text-align:center;
-    width:60%;
 }
 
-.skills-list-container{
-    padding-right: 10px;
+.profile-container{
+    display:inline-block;
 }
 
-.list-style{
-    font-family: monospace;
-    font-size: 2em;
-    line-height: 20px;
-    text-align: center;
-} 
-
-div.skills-list-container ol.list-style li{
-    display:inline;
-    margin:8%;
+.about-container{
+    display:inline-block;
+    width:27%;
+    text-align:justify;
+    padding:4px;
 }
 
-div.skills-list-container ol.list-style li:nth-child(odd):hover{
-    text-decoration: underline;
+ul.skills-list{
+    text-align:center;
 }
 
-.network-container{
-    position:absolute;
-    top:85%;
-    left:38%;
-    padding-bottom: 20px;
-    overflow:hidden;
+ul.skills-list li{
+    display:inline-block;
+    padding:20px 35px;
 }
 
-.network-item{
-    font-family:monospace,
-    sans-serif;
-    font-size: 2em;
+ul.skills-list li:nth-child(odd){
+    background-color:rgba(255, 193, 142, 0.918);
+}
+
+.network{
+    text-align:center;
+    padding-bottom:50px;
+}
+
+section.network a{
+    font-size:1.4em;
     text-decoration: none;
-    padding-bottom: 5%;
     color:black;
+    margin:25px;
+    font-style: bold;
 }
 
-.network-item:hover{
-    text-decoration:underline;
+section.network a:hover{
+    text-decoration: underline;
+    color:blueviolet;
 }
 
-.linkedin-logo{
-    width:20%;
-    position:absolute;
-    top:80%;
-    left:27%
-}
-
-.github-logo{
-    width:20%;
-    position:absolute;
-    left:55%;
-    top:75%
+footer{
+    background-color:rgba(250, 156, 79, 0.918);
+    text-align:right;
+    color:grey;
+    font-size:10px;
+    padding-right: 25px;
+    padding-bottom:10px;
+    border-top:2px solid black;
 }

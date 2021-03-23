@@ -1,0 +1,138 @@
+h1 {
+    font-family:monospace;
+    color: blueviolet;
+    text-shadow:2px 2px 2px plum;
+    font-size:5em;
+    text-align:center;
+    /* padding-top:30px;
+    padding-bottom:20px; */
+}
+
+h2 {
+    font-family:monospace;
+    color: orangered;
+    text-shadow:1px 1px 1px orange;
+    font-size:4em;
+    text-align:center;
+}
+
+body {
+    background-color: rgba(35, 109, 143, 0.363);
+    font-size:10px;
+    overflow:hidden;
+    margin:0;
+}
+
+div{
+    display:block;
+}
+
+p {
+    font-family:monospace,
+        sans-serif;
+    font-size:2em;
+}
+
+.menu-container{
+    font-size: 3em;
+    text-align:center;
+    padding-top:7px;
+    padding-bottom:10px;
+    overflow: hidden;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color:rgba(250, 156, 79, 0.918);
+}
+
+div.menu-container a.active{
+    padding: 14px 16px;
+    text-decoration:none;
+    color:black;
+}
+
+div.menu-container a.active:hover{
+    background-color:greenyellow;
+}
+
+.profile-pic{
+    width:10%;
+    position:absolute;
+    left:25%;
+    top:32%;
+    padding-right: 5px;
+    padding-left:7px;
+    padding-bottom:4px;
+}
+
+div.aboutme{
+    width:30%;
+    position:absolute;
+    top:40%;
+    left:44%;
+    overflow:hidden;
+}
+
+
+div.skills{
+    position:absolute;
+    top:61%;
+    left:20%;;
+    overflow:hidden;
+    text-align:center;
+    width:60%;
+}
+
+.skills-list-container{
+    padding-right: 10px;
+}
+
+.list-style{
+    font-family: monospace;
+    font-size: 2em;
+    line-height: 20px;
+    text-align: center;
+} 
+
+div.skills-list-container ol.list-style li{
+    display:inline;
+    margin:8%;
+}
+
+div.skills-list-container ol.list-style li:nth-child(odd):hover{
+    text-decoration: underline;
+}
+
+.network-container{
+    position:absolute;
+    top:85%;
+    left:38%;
+    padding-bottom: 20px;
+    overflow:hidden;
+}
+
+.network-item{
+    font-family:monospace,
+    sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    padding-bottom: 5%;
+    color:black;
+}
+
+.network-item:hover{
+    text-decoration:underline;
+}
+
+.linkedin-logo{
+    width:20%;
+    position:absolute;
+    top:80%;
+    left:27%
+}
+
+.github-logo{
+    width:20%;
+    position:absolute;
+    left:55%;
+    top:75%
+}

@@ -4,8 +4,8 @@ h1 {
     text-shadow:2px 2px 2px plum;
     font-size:5em;
     text-align:center;
-    padding-top:30px;
-    padding-bottom:20px;
+    /* padding-top:30px;
+    padding-bottom:20px; */
 }
 
 h2 {
@@ -135,4 +135,8 @@ div.skills-list-container ol.list-style li:nth-child(odd):hover{
     position:absolute;
     left:55%;
     top:75%
+}
+
+.network{
+    text-align:center;
 }

@@ -1,47 +1,47 @@
 body{
-    margin:0;
-    font-family:monospace,sans-serif;
-    background-color:rgba(135, 180, 201, 0.452);
+  margin:0;
+  font-family:monospace,sans-serif;
+  background-color:rgba(135, 180, 201, 0.452);
 }
 
 h1{
-    font-family:monospace;
-    color: blueviolet;
-    text-shadow:2px 2px 2px plum;
-    font-size:4em;
-    text-align:center;
+  font-family:monospace;
+  color: blueviolet;
+  text-shadow:2px 2px 2px plum;
+  font-size:4em;
+  text-align:center;
 }
 
 h2{
-    font-family:monospace;
-    color: orangered;
-    text-shadow:2px 2px 2px orange;
-    font-size:2.5em;
-    text-align:center;
-    padding-top:20px;
+  font-family:monospace;
+  color: orangered;
+  text-shadow:2px 2px 2px orange;
+  font-size:2.5em;
+  text-align:center;
+  padding-top:20px;
 }
 
 p{
-    font-size:1.1em;
+  font-size:1.1em;
 }
 
 ul.skills-list li a{
-    font-size:1.5em;
-    padding:25px;
-    color:black;
+  font-size:1.5em;
+  padding:25px;
+  color:black;
 }
 
 ul.menu-list{
-    text-align:center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color:rgba(250, 156, 79, 0.918);
+  text-align:center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color:rgba(250, 156, 79, 0.918);
 }
 
 ul.menu-list li{
-    display:inline-block;
-    font-size:1.5em;
-    padding:8px;
+  display:inline-block;
+  font-size:1.5em;
+  padding:8px 25px;
 }
 
 ul.menu-list li a{
@@ -76,6 +76,7 @@ ul.menu-list li:hover{
 
 ul.skills-list{
     text-align:center;
+    padding-top: 50px;
 }
 
 ul.skills-list li{
@@ -84,7 +85,11 @@ ul.skills-list li{
 }
 
 ul.skills-list li:nth-child(odd){
-    background-color:rgba(255, 193, 142, 0.918);
+  background-color:rgba(255, 193, 142, 0.918);
+}
+
+ul.skills-list li:nth-child(even){
+  font-weight:bold;
 }
 
 .network{
@@ -106,11 +111,11 @@ section.network a:hover{
 }
 
 footer{
-    background-color:rgba(250, 156, 79, 0.918);
-    text-align:right;
-    color:grey;
-    font-size:10px;
-    padding-right: 25px;
-    padding-bottom:10px;
-    border-top:2px solid black;
+  background-color:rgba(250, 156, 79, 0.918);
+  text-align:right;
+  color:grey;
+  font-size:10px;
+  padding-right: 25px;
+  padding-bottom:10px;
+  border-top:2px solid black;
 }

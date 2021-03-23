@@ -44,6 +44,11 @@ ul.menu-list li{
     padding:8px;
 }
 
+ul.menu-list li a{
+    text-decoration: none;
+    color:black;
+}
+
 ul.menu-list li:hover{
     background-color:greenyellow;
 }

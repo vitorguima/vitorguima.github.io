@@ -19,7 +19,12 @@ h2 {
 body {
     background-color: rgba(35, 109, 143, 0.363);
     font-size:10px;
-    overflow:hidden
+    overflow:hidden;
+    margin:0;
+}
+
+div{
+    display:block;
 }
 
 p {
@@ -34,7 +39,8 @@ p {
     padding-top:7px;
     padding-bottom:10px;
     overflow: hidden;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     background-color:rgba(250, 156, 79, 0.918);
 }
 
@@ -46,10 +52,6 @@ div.menu-container a.active{
 
 div.menu-container a.active:hover{
     background-color:greenyellow;
-}
-
-div.profile-container{
-    width: 100%;
 }
 
 .profile-pic{
@@ -134,8 +136,3 @@ div.skills-list-container ol.list-style li:nth-child(odd):hover{
     left:55%;
     top:75%
 }
-/* 
-div classes
-menu
-
-*/
